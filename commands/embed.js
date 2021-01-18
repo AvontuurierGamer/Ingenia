@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
 
     if (!message.member.hasPermission("KICK_MEMBERS")) return message.reply("You do not have access to this");
 
-    var seperator = "/";
+    var seperator = "|";
 
     if(args[0] == null) {
 
