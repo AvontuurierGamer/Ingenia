@@ -13,7 +13,7 @@ module.exports.run = async(bot, message, args) => {
         .setTimestamp()
         .setImage(message.author.avatarURL())
 
-    var channel = message.member.guild.channels.cache.get("797560984482742313")
+    var channel = message.member.guild.channels.cache.get("799941304359452672")
 
     if(!channel) return message.channel.send("channel not found");
 
